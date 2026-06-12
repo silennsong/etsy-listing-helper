@@ -27,6 +27,8 @@ The `references/` folder contains structured digests of:
 
 - [Keywords 101: Everything You Need to Know](https://www.etsy.com/seller-handbook/article/keywords-101-everything-you-need-to-know/382774281517) — Etsy Seller Handbook
 - [Add Attributes to Help Increase Your Shop's Visibility](https://www.etsy.com/seller-handbook/article/604203126614) — Etsy Seller Handbook
+- [The Anatomy of a Well-Crafted Etsy Listing](https://www.etsy.com/seller-handbook/article/1347574487014) — Etsy Seller Handbook
+- [Checklist: Optimize Your Shop for Etsy Search](https://www.etsy.com/seller-handbook/article/366470356778) — Etsy Seller Handbook
 - [Complete Etsy Category List](https://www.etsy.com/help/categories/seller) — the full official category tree (~3,000 lines), so suggested categories are real, exact, deepest-level paths
 
 > Etsy content © Etsy, Inc., included for reference with attribution. Etsy is a trademark of Etsy, Inc. This project is not affiliated with or endorsed by Etsy.

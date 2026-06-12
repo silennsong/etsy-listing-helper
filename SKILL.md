@@ -41,16 +41,18 @@ Rules:
 - [references/keywords-101.md](references/keywords-101.md) — full official "Keywords 101" article: title before/after examples, tagging dos & don'ts, the 7 tag-brainstorming dimensions (descriptive / materials & techniques / who it's for / occasions / solution / style / size). Always read; build the 13 tags by covering several of these dimensions.
 - [references/attributes.md](references/attributes.md) — full official attributes article: attributes power sidebar filters, must describe what the product IS not how it's used (occasion attribute ≠ gift tag). Read when filling section 5.
 - [references/etsy-categories.md](references/etsy-categories.md) — Etsy's complete official category tree (~3,000 lines). Do NOT read whole; grep for the product keyword (e.g. "Lantern") or top-level category (e.g. "Home & Living") and pick the **deepest matching subcategory**. Use the exact official names in the Category path of section 5.
+- [references/search-optimization.md](references/search-optimization.md) — ranking mechanics and title rules from "Anatomy of a Well-Crafted Listing" + the official search-optimization checklist: ~15-word titles, the tag "Google rule", first-photo SEO (no text overlays, 2000px+), description = phase-2 ranking, shop-level factors. Always read.
 
 Validate every title ≤ 140 characters and every tag ≤ 20 characters before output.
 
 ## SEO principles (from Etsy Seller Handbook)
 
-- Think like a buyer: keywords = **subject + product type + recipient/occasion + style** (e.g., "french bulldog gift", "solar garden lantern", "dog mom gift", "vintage patio decor").
-- Title: lead with the strongest buyer phrase (what shoppers see first, especially on mobile); readable, not a keyword dump; commas/pipes to separate phrases. Phrase position does not affect ranking, but scannability affects clicks.
-- Tags: always use **all 13**; multi-word phrases beat single words; don't repeat the category/attribute words verbatim; mix high-traffic and long-tail; cover several brainstorming dimensions (recipient, occasion, style, solution, size…); no deliberate misspellings, no plural variants.
-- Description: incorporate top keywords naturally in the first few sentences (they also feed Google's snippet) — don't copy the title verbatim; don't open with "Welcome to my shop".
-- Categories and attributes act like extra tags — pick the deepest official category and fill every truly applicable attribute; don't waste tag slots duplicating them.
+- Think like a buyer: keywords = **subject + product type + recipient/occasion + style** (e.g., "french bulldog gift", "solar garden lantern", "dog mom gift", "vintage patio decor"). Spread them across title, tags, description, and attributes — Etsy ranks holistically, so the title doesn't have to carry everything.
+- Title: **short and scannable, ~15 words or fewer** — clearly name the item, put its most important traits (subject, color, material, size) upfront, don't repeat words, no subjective fluff ("perfect", "beautiful"), no price/shipping/sale info. Include a holiday/occasion/recipient word only if it's essential to what the item IS (a "Halloween costume" yes; an item that merely makes a good gift, no — that goes in tags). Word order doesn't affect ranking directly, but a clear title earns clicks, and popularity feeds back into ranking.
+- Tags: always use **all 13**; multi-word phrases in natural language — official rule of thumb: *if you can't imagine someone typing it into Google, it shouldn't be a tag*. Don't repeat the category/attribute words verbatim; mix high-traffic and long-tail; cover several brainstorming dimensions (what it is, how it's made, who it's for, occasion, style, solution, size); no deliberate misspellings, no plural variants. Tags must be in the shop's language — foreign-language tags don't help search.
+- Description: keywords in descriptions power the second phase of search ranking. Put essential info (size, dimensions, colors) at the top, incorporate top keywords naturally in the first few sentences (they also feed Google's snippet) — don't copy the title verbatim; don't open with "Welcome to my shop"; end with the design's story in the brand's voice.
+- Categories and attributes act like extra tags — pick the deepest official category and fill every truly applicable attribute (choose the closest available option even if imperfect); don't waste tag slots duplicating them.
+- First photo is a search factor: advise white/clean background, no text overlays or collages, at least 635px (2000px+ recommended) — POD white-background renders qualify as-is.
 
 ## Fixed output format
 
@@ -61,7 +63,7 @@ Use this exact template for every listing. Copy-paste blocks must contain **only
 ```
 ## Listing {N} — {design short name, e.g. "French Bulldog Coffee Lantern"}
 
-### 1. Title (≤140 chars)
+### 1. Title (~15 words, ≤140 chars)
 {listing-language title}
 
 > Translation: {title in conversation language — omit if same language}
@@ -110,7 +112,7 @@ Multiple listings: repeat the template per image, separated by `---`. Keep secti
 ## Quality bar
 
 - Tags: count characters; anything over 20 chars must be shortened or split into phrasal chunks.
-- Title: never start with the shop name or generic words like "Beautiful"; start with the strongest buyer search phrase.
+- Title: never start with the shop name or generic words like "Beautiful"; start with the item's strongest identifying phrase, keep it ~15 words, and don't repeat words. Recipient/occasion angles ("dog mom gift") belong in tags unless they define the item itself.
 - Don't invent product facts not in the spec or visible in the image (e.g., don't claim "metal" if spec says plastic) — Etsy prohibits misleading descriptions.
 - Personalization: POD products usually support custom designs — if plausible, suggest it in Variations as it's a strong Etsy differentiator.
 - Remind the user once per session (not per listing): Etsy requires POD shops to disclose production partners under the Handmade Policy.

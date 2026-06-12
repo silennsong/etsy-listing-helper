@@ -107,6 +107,17 @@ variation reasoning}
 
 Multiple listings: repeat the template per image, separated by `---`. Keep section numbering and headings identical every time — consistency is the point; users batch-copy these into Etsy daily.
 
+## Maintaining this skill (when the user asks to add new Etsy info)
+
+The reference layer is deliberately two files: one consolidated rulebook + one lookup table. When integrating a new article, help-center page, or policy update, preserve that shape — the failure mode to avoid is a growing pile of per-article files that each get read at generation time.
+
+1. **Merge, don't append.** New field rules go into the matching section of `references/listing-fields.md`, deduplicated against what's already there. If new official guidance contradicts an existing rule, **replace** the old rule (this file states current best practice, not history). Each fact appears exactly once.
+2. **Originals to `sources/`.** Save the full original text as a new file in `references/sources/` with its URL and publication/fetch dates. Sources are provenance only — never wired into the generation workflow.
+3. **Never add a new always-read file.** Generation reads exactly `listing-fields.md` plus a grep of `etsy-categories.md`. If new content doesn't fit an existing section of the rulebook, add a section to it — not a new file.
+4. **Keep `etsy-categories.md` a pure lookup table.** Refresh it by re-extracting the official tree; don't annotate or mix commentary into it.
+5. **SKILL.md stays workflow-only.** It holds process, format, and a summary of SEO principles; detailed field facts live in the rulebook. Only touch the SEO-principles summary here when an update changes *strategy* (as the ~15-word title rule did), and keep it to one line per idea.
+6. **Update the README source list** when a new official source is integrated, and sync the installed copy at `~/.claude/skills/etsy-listing-helper/` with the repo.
+
 ## Quality bar
 
 - Tags: count characters; anything over 20 chars must be shortened or split into phrasal chunks.

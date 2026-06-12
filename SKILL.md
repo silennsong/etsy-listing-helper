@@ -37,11 +37,9 @@ Rules:
 
 ## Reference files — read before writing
 
-- [references/etsy-rules.md](references/etsy-rules.md) — quick field-by-field checklist (character limits, photo/variation/personalization specs). Always read.
-- [references/keywords-101.md](references/keywords-101.md) — full official "Keywords 101" article: title before/after examples, tagging dos & don'ts, the 7 tag-brainstorming dimensions (descriptive / materials & techniques / who it's for / occasions / solution / style / size). Always read; build the 13 tags by covering several of these dimensions.
-- [references/attributes.md](references/attributes.md) — full official attributes article: attributes power sidebar filters, must describe what the product IS not how it's used (occasion attribute ≠ gift tag). Read when filling section 5.
+- [references/listing-fields.md](references/listing-fields.md) — **always read this one file**. Consolidated per-field rules merged from all official Etsy sources, in listing-form order: ranking mechanics, title (~15 words, official before/after examples), photos & alt text, description, tags (limits, dos/don'ts, the 7 brainstorming dimensions), materials, category, attributes, variations & personalization, shop-level advice.
 - [references/etsy-categories.md](references/etsy-categories.md) — Etsy's complete official category tree (~3,000 lines). Do NOT read whole; grep for the product keyword (e.g. "Lantern") or top-level category (e.g. "Home & Living") and pick the **deepest matching subcategory**. Use the exact official names in the Category path of section 5.
-- [references/search-optimization.md](references/search-optimization.md) — ranking mechanics and title rules from "Anatomy of a Well-Crafted Listing" + the official search-optimization checklist: ~15-word titles, the tag "Google rule", first-photo SEO (no text overlays, 2000px+), description = phase-2 ranking, shop-level factors. Always read.
+- `references/sources/` — full original Seller Handbook articles, kept for provenance. Don't read during normal listing generation; consult only if the consolidated file leaves a question open.
 
 Validate every title ≤ 140 characters and every tag ≤ 20 characters before output.
 

@@ -33,6 +33,8 @@ The `references/` folder contains structured digests of:
 
 > Etsy content © Etsy, Inc., included for reference with attribution. Etsy is a trademark of Etsy, Inc. This project is not affiliated with or endorsed by Etsy.
 
+**Contributing new Etsy guidance**: merge rules into `references/listing-fields.md` (one consolidated rulebook, each fact stated once) and drop the full original article into `references/sources/`. Don't add new always-read reference files — see the "Maintaining this skill" section in [SKILL.md](SKILL.md).
+
 ## Install
 
 **Claude Code (personal skill):**

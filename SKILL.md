@@ -39,7 +39,7 @@ Rules:
 
 - [references/listing-fields.md](references/listing-fields.md) — **always read this one file**. Consolidated per-field rules merged from all official Etsy sources, in listing-form order: ranking mechanics, title (~15 words, official before/after examples), photos & alt text, description, tags (limits, dos/don'ts, the 7 brainstorming dimensions), materials, category, attributes, variations & personalization, shop-level advice.
 - [references/etsy-categories.md](references/etsy-categories.md) — Etsy's complete official category tree (~3,000 lines). Do NOT read whole; grep for the product keyword (e.g. "Lantern") or top-level category (e.g. "Home & Living") and pick the **deepest matching subcategory**. Use the exact official names in the Category path of section 5.
-- `references/sources/` — full original Seller Handbook articles, kept for provenance. Don't read during normal listing generation; consult only if the consolidated file leaves a question open.
+- `references/sources/` — one source note per official article (link, dates, short summary, which rulebook sections it fed), kept for provenance. Don't read during normal listing generation; if the consolidated file leaves a question open, open the linked article.
 
 Validate every title ≤ 140 characters and every tag ≤ 20 characters before output.
 
@@ -112,7 +112,7 @@ Multiple listings: repeat the template per image, separated by `---`. Keep secti
 The reference layer is deliberately two files: one consolidated rulebook + one lookup table. When integrating a new article, help-center page, or policy update, preserve that shape — the failure mode to avoid is a growing pile of per-article files that each get read at generation time.
 
 1. **Merge, don't append.** New field rules go into the matching section of `references/listing-fields.md`, deduplicated against what's already there. If new official guidance contradicts an existing rule, **replace** the old rule (this file states current best practice, not history). Each fact appears exactly once.
-2. **Originals to `sources/`.** Save the full original text as a new file in `references/sources/` with its URL and publication/fetch dates. Sources are provenance only — never wired into the generation workflow.
+2. **Source notes to `sources/`.** Add a note file in `references/sources/` with the article's URL, publication/fetch dates, a short summary in your own words, and the rulebook sections it fed. Don't copy the article's full text into the repository — it is Etsy's copyrighted content. Sources are provenance only — never wired into the generation workflow.
 3. **Never add a new always-read file.** Generation reads exactly `listing-fields.md` plus a grep of `etsy-categories.md`. If new content doesn't fit an existing section of the rulebook, add a section to it — not a new file.
 4. **Keep `etsy-categories.md` a pure lookup table.** Refresh it by re-extracting the official tree; don't annotate or mix commentary into it.
 5. **SKILL.md stays workflow-only.** It holds process, format, and a summary of SEO principles; detailed field facts live in the rulebook. Only touch the SEO-principles summary here when an update changes *strategy* (as the ~15-word title rule did), and keep it to one line per idea.

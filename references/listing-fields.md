@@ -1,7 +1,7 @@
 # Etsy Listing Fields: Consolidated Rules (上架字段规则合订本)
 
 Single consolidated reference for every listing field, merged from official Etsy sources
-(all dated August 2025; full original articles preserved in `sources/`):
+(all dated August 2025; links and summaries in `sources/`):
 
 - Keywords 101: Everything You Need to Know
 - Add Attributes to Help Increase Your Shop's Visibility

@@ -105,3 +105,5 @@ Package Includes: A product instruction manual is included.
 ## 许可证
 
 MIT，见 [LICENSE](LICENSE)。
+
+MIT 许可证覆盖的是本项目自己的内容。`references/` 下的文件摘录和引用了 Etsy 卖家手册与 Etsy 帮助中心，这部分内容的版权仍归 Etsy, Inc. 所有。

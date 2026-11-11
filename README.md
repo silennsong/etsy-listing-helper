@@ -105,3 +105,5 @@ Merge rules into `references/listing-fields.md` (one consolidated rulebook, each
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+The MIT license covers this project's own work. Files under `references/` summarize and quote the Etsy Seller Handbook and Etsy Help Center; that content remains © Etsy, Inc.
